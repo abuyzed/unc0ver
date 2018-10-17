@@ -259,7 +259,7 @@ div.iphone {
     overflow: hidden; }
   @media all and (max-width: 660px) {
     div.iphone {
-      display: none; } }
+      display: block; } }
 
 ul.press-coverage {
   margin-top: 4em;
