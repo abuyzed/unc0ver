@@ -247,15 +247,17 @@ div.iphone {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  background: url(/app_site/assets/iphone.svg) no-repeat;
-  background-size: 384px 760px;
-  width: 384px;
-  height: 760px;
-  padding: 96px 0 0 32px; }
-  div.iphone div, div.iphone img {
-    background: #fff;
-    width: 320px;
-    height: 568px;
+  background: url(/assets/iphone.svg) no-repeat;
+  background-size: 100% 100%;
+  width: 100%; }
+  div.iphone div {
+	width: auto;
+    height: 640px;
+    overflow: hidden; }
+  div.iphone  img {
+	padding: 32% 0% 0% 8%;
+	width: 84%;		/* 83.33333333333334% */
+    height: 70%;	/* 74.73684210526315% */
     overflow: hidden; }
   @media all and (max-width: 660px) {
     div.iphone {
