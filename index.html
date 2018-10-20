@@ -27,7 +27,7 @@
 				<p>by <a href="https://twitter.com/Pwn20wnd">@pwn20wnd</a> & <a href="https://twitter.com/sbingner">@sbingner</a><br>
 					UI by <a href="https://twitter.com/DennisBednarz">@DennisBednarz</a> & <a href="https://reddit.com/u/Samg_is_a_Ninja">Samg_is_a_Ninja</a></p> 
   				  	
-					Latest version is <b id="unc0veRC"></b>
+					<p>Latest version is <strong id="RC"></strong></p>
 					
 					<p>Check out all the details and news at the <a href="https://ivancristina.it/unc0ver/info">info page</a>.</p>
 
@@ -73,6 +73,7 @@
 								if (file.status === 200) {  // Makes sure it's found the file
 									text = file.responseText;
 									document.getElementById("unc0veRC").innerHTML = text;
+									document.getElementById("RC").innerHTML = text;
 								}
 							}
 						}
