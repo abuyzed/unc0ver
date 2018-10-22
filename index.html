@@ -16,7 +16,7 @@
 			<div>
 				<h1><a href="/" rel="home">unc0ver</a></h1>
 				<h2>iOS 11 - 11.4b3 Jailbreak / <b id="unc0veRC"></b></h2>
-				
+
 				<p><a href="https://is.gd/latestUnc0verNashServices" class="app-store" rel="external nofollow"><img src="assets/white/Tweakbox.svg" alt="Download from Tweakbox!"></a></p>
 			</div>
 		</div>
@@ -25,28 +25,28 @@
 		<div>
 			<center>
 				<p>by <a href="https://twitter.com/Pwn20wnd">@pwn20wnd</a> & <a href="https://twitter.com/sbingner">@sbingner</a><br>
-					UI by <a href="https://twitter.com/DennisBednarz">@DennisBednarz</a> & <a href="https://reddit.com/u/Samg_is_a_Ninja">Samg_is_a_Ninja</a></p> 
-  				  	
+					UI by <a href="https://twitter.com/DennisBednarz">@DennisBednarz</a> & <a href="https://reddit.com/u/Samg_is_a_Ninja">Samg_is_a_Ninja</a></p>
+
 					<p>Latest version is <strong id="RC"></strong></p>
-					
+
 					<p>Check out all the details and news at the <a href="https://ivancristina.it/unc0ver/info">info page</a>.</p>
 
 					<p class="app-store"><a href="itms-services://?action=download-manifest&url=https://s0n1c.org/jbs/plist/0" class="app-store" rel="external nofollow"><img src="assets/dark/Sonic.svg" alt="Download from Sonic Dev!" /></a>
-						
+
 					<p>You could download it from the <a href="ignition.fun">Ignition server</a>, although the hosted version is outdated (<strong>RC6</strong>) and not signed with <em>multi_path</em> support.</p>
 
 					<p class="app-store"><a href="itms-services://?action=download-manifest&url=https://ipas.fun/plists/unc0ver.plist" class="app-store" rel="external nofollow"><img src="assets/gray/Ignition.svg" alt="Download from Ignition!" /></a></p>
-					  
+
 						<p>Or click on the logo to download the latest untouched IPA!</p>
 					</div>
 					<div>
 						<div class="iphone">
 							<div id="screenshots">
-      
+
 								<img alt="unc0ver Screenshot" src="https://raw.githubusercontent.com/pwn20wndstuff/Undecimus/master/Resources/Screenshot-2.PNG?token=AlyO48Vs-YYcaKUgxXh8nIEUQQz_QEoqks5bx5ZqwA%3D%3D" width="320" heigh="568">
-      
+
 								<img alt="unc0ver Screenshot" src="https://raw.githubusercontent.com/pwn20wndstuff/Undecimus/master/Resources/Screenshot-1.PNG?token=AlyO4wXUInR6oHEgx0Tg31ri0t1q91frks5bx5ZbwA%3D%3D" width="320" heigh="568">
-      
+
 							</div>
 						</div>
 					</div>
@@ -63,31 +63,16 @@
 						</ul>
 					</div>
 				</footer>
-				
-				<script>
-					window.onload = function load() {
-						var file = new XMLHttpRequest();
-						file.open("GET", "https://raw.githubusercontent.com/pwn20wndstuff/Undecimus/master/Update.txt", true);
-						file.onreadystatechange = function() {
-							if (file.readyState === 4) {  // Makes sure the document is ready to parse
-								if (file.status === 200) {  // Makes sure it's found the file
-									text = file.responseText;
-									document.getElementById("unc0veRC").innerHTML = text;
-									document.getElementById("RC").innerHTML = text;
-								}
-							}
-						}
-						file.send();
-					}
-				</script>
-					
+
 				<script src="assets/srcset.min.js"></script>
-  
+
+				<script src="assets/rc.min.js"></script>
+
 				<script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  
+
 				<script src="assets/jquery.cycle.lite.min.js"></script>
-  
+
 				<script src="assets/home.js"></script>
-  
+
 				</body>
 				</html>
