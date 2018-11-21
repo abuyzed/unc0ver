@@ -46,16 +46,16 @@ table {
   border-spacing: 0; }
 
 .grater-container {
-  width: 640px;
+  width: 890px;
   margin: 0 auto; }
-  @media all and (max-width: 660px) {
+  @media all and (max-width: 910px) {
     .grater-container {
-      width: 300px; } }
+      width: 425px; } }
 
 .grater {
   zoom: 1; }
   .grater > div {
-    width: 300px;
+    width: 425px;
     margin: 0 0 2em; }
     .grater > div:first-child {
       float: left; }
@@ -70,7 +70,7 @@ table {
     display: table; }
   .grater:after {
     clear: both; }
-  @media all and (max-width: 660px) {
+  @media all and (max-width: 910px) {
     .grater {
       margin-bottom: 1em; }
       .grater > div {
@@ -147,6 +147,8 @@ body > header {
   body > header p {
     margin: 0; }
   body > header a.icon {
+    margin-right: 0;
+    margin-left: auto;
     display: block;
     width: 280px;
     height: 280px; }
@@ -186,7 +188,7 @@ body > header {
     margin-bottom: 0; }
   body > header p {
     margin-bottom: 0; }
-  @media all and (max-width: 660px) {
+  @media all and (max-width: 910px) {
     body > header {
       text-align: center;
       padding: 20px 0 20px; }
@@ -210,7 +212,7 @@ h2 {
   color: rgba(255, 255, 255, 0.5); }
 
 body > footer {
-  width: 640px;
+  width: 890px;
   margin: 0 auto;
   padding: 1em 0;
   color: #c3c3c3;
@@ -226,7 +228,7 @@ body > footer {
     float: left;
     margin-left: 1em;
     display: inline-block; }
-  @media all and (max-width: 660px) {
+  @media all and (max-width: 910px) {
     body > footer {
       text-align: center;
       padding-bottom: 0; }
@@ -240,7 +242,7 @@ body > footer {
         text-align: center;
         width: 100%; } }
 
-@media all and (max-width: 660px) {
+@media all and (max-width: 910px) {
   footer.grater > div {
     margin-bottom: 0.5em; } }
 div.iphone {
@@ -264,6 +266,19 @@ div.iphone {
     div.iphone {
       display: block; } }
 
+div.device_frame {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  resize:both; }
+/*div.device_frame div {
+	width: auto;
+  height: auto;
+  overflow: hidden; }*/
+@media all and (max-width: 910px) {
+    div.device_frame {
+      display: block; } }*/
+
 ul.press-coverage {
   margin-top: 4em;
   font-size: 0.9em; }
@@ -284,8 +299,8 @@ a.app-store {
     width: 100%;
     height: 100%; }
 
-@media all and (max-width: 660px) {
+@media all and (max-width: 910px) {
   p.app-store {
     text-align: center; } }
-	
+
 /*# sourceMappingURL=application.css.map */
