@@ -46,16 +46,16 @@ table {
   border-spacing: 0; }
 
 .grater-container {
-  width: 890px;
+  width: 640px;
   margin: 0 auto; }
-  @media all and (max-width: 910px) {
+  @media all and (max-width: 660px) {
     .grater-container {
-      width: 425px; } }
+      width: 300px; } }
 
 .grater {
   zoom: 1; }
   .grater > div {
-    width: 425px;
+    width: 300px;
     margin: 0 0 2em; }
     .grater > div:first-child {
       float: left; }
@@ -70,7 +70,7 @@ table {
     display: table; }
   .grater:after {
     clear: both; }
-  @media all and (max-width: 910px) {
+  @media all and (max-width: 660px) {
     .grater {
       margin-bottom: 1em; }
       .grater > div {
@@ -188,7 +188,7 @@ body > header {
     margin-bottom: 0; }
   body > header p {
     margin-bottom: 0; }
-  @media all and (max-width: 910px) {
+  @media all and (max-width: 660px) {
     body > header {
       text-align: center;
       padding: 20px 0 20px; }
@@ -212,7 +212,7 @@ h2 {
   color: rgba(255, 255, 255, 0.5); }
 
 body > footer {
-  width: 890px;
+  width: 640px;
   margin: 0 auto;
   padding: 1em 0;
   color: #c3c3c3;
@@ -228,7 +228,7 @@ body > footer {
     float: left;
     margin-left: 1em;
     display: inline-block; }
-  @media all and (max-width: 910px) {
+  @media all and (max-width: 660px) {
     body > footer {
       text-align: center;
       padding-bottom: 0; }
@@ -242,7 +242,7 @@ body > footer {
         text-align: center;
         width: 100%; } }
 
-@media all and (max-width: 910px) {
+@media all and (max-width: 660px) {
   footer.grater > div {
     margin-bottom: 0.5em; } }
 div.iphone {
@@ -299,7 +299,7 @@ a.app-store {
     width: 100%;
     height: 100%; }
 
-@media all and (max-width: 910px) {
+@media all and (max-width: 660px) {
   p.app-store {
     text-align: center; } }
 
